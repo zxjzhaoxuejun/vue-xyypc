@@ -8,6 +8,7 @@ import Project from '@/pages/project'
 import Server from '@/pages/server'
 import News from '@/pages/news'
 import Case from '@/pages/case'
+import Test from '@/pages/test'
 import About from '@/pages/about'
 import Contact from '@/pages/contact'
 import NewDetails from '@/pages/new_details'
@@ -64,6 +65,10 @@ export default new Router({
     {
       path: '/404',
       component: Nopage
+    },
+    {
+      path: '/test',
+      component: Test
     }
   ]
 })
