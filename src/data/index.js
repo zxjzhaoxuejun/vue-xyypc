@@ -44,8 +44,8 @@ const indexDate = {
     }
   ],
   // 'http://localhost/xyyPro/public/index/app/'
-  localhost: 'http://localhost/xyyPro/public/index/app/',
-  online: 'http://api.xyy51.cn/index/app/'
+  localhost: 'https://api.xyy51.cn/index/app/'
+  // online: 'https://api.xyy51.cn/index/app/'
 }
 export default {
   indexDate

@@ -1,7 +1,7 @@
 <template>
   <div class="new-list" @click="jump(newData.id)">
     <el-row :gutter="15">
-      <el-col :span="6"> <img :src="newData.art_thumb?newData.art_thumb:defaultImg" alt="news"></el-col>
+      <el-col :span="6"> <img :src="newData.art_thumb?`http://api.xyy51.cn/static/${newData.art_thumb}`:defaultImg" alt="news"></el-col>
       <el-col :span="18">
         <div class="new-con">
         <div class="new-title">{{newData.art_title}}</div>

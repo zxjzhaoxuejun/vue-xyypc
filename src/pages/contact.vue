@@ -166,7 +166,6 @@ export default {
               console.log(err)
               self.failMsg(err)
             })
-          alert('submit!')
         } else {
           console.log('error submit!!')
           return false
